@@ -3,88 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Casas Prefabricadas con Terreno</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            text-align: center;
-        }
-        .container {
-            max-width: 900px;
-            margin: auto;
-            padding: 20px;
-        }
-        h1 {
-            color: #2c3e50;
-            font-size: 2.5em;
-        }
-        .hero {
-            background-image: url('https://source.unsplash.com/900x500/?modern-house');
-            background-size: cover;
-            background-position: center;
-            color: white;
-            padding: 100px 20px;
-        }
-        .cta-button {
-            background-color: #27ae60;
-            color: white;
-            padding: 15px 30px;
-            border: none;
-            cursor: pointer;
-            font-size: 20px;
-            border-radius: 5px;
-            margin-top: 20px;
-            transition: 0.3s;
-        }
-        .cta-button:hover {
-            background-color: #219150;
-        }
-        .info-section {
-            background-color: white;
-            padding: 20px;
-            margin: 20px;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        }
-        form {
-            background: white;
-            padding: 20px;
-            margin: 20px;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        }
-        input, button {
-            padding: 10px;
-            margin: 10px 0;
-            width: 100%;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-        }
-    </style>
+    <title>Casas Modulares en Murcia</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="hero">
-        <h1>Tu Casa Prefabricada con Terreno a Precio Asequible</h1>
-        <p>Casas modernas, eficientes y listas para entrar a vivir.</p>
-        <button class="cta-button">Reserva tu casa desde 500€</button>
-    </div>
-    <div class="container">
-        <div class="info-section">
-            <h2>¿Por qué elegir nuestras casas?</h2>
-            <p>✔ Diseños modernos y personalizables</p>
-            <p>✔ Eficiencia energética y sostenibilidad</p>
-            <p>✔ Listas para entrar a vivir con terreno incluido</p>
+    <header>
+        <div class="container">
+            <h1>Casas Modulares</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Inicio</a></li>
+                    <li><a href="#about">Sobre Nosotros</a></li>
+                    <li><a href="#services">Servicios</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </nav>
         </div>
-        <h2>Solicita más información</h2>
-        <form>
-            <input type="text" name="nombre" placeholder="Tu Nombre" required>
-            <input type="email" name="email" placeholder="Tu Correo Electrónico" required>
-            <input type="tel" name="telefono" placeholder="Tu Teléfono" required>
-            <button type="submit">Quiero información</button>
-        </form>
-    </div>
+    </header>
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <h2>Casas Modulares en Murcia</h2>
+                <p>Encuentra la casa modular de tus sueños en Murcia.</p>
+            </div>
+        </section>
+        <section id="about" class="content-section">
+            <div class="container">
+                <h2>Sobre Nosotros</h2>
+                <p>Somos líderes en la construcción de casas modulares en Murcia.</p>
+            </div>
+        </section>
+        <section id="services" class="content-section">
+            <div class="container">
+                <h2>Servicios</h2>
+                <p>Ofrecemos una amplia gama de servicios para la construcción de casas modulares.</p>
+            </div>
+        </section>
+        <section id="contact" class="content-section">
+            <div class="container">
+                <h2>Contacto</h2>
+                <p>Ponte en contacto con nosotros para más información.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Casas Modulares en Murcia. Todos los derechos reservados.</p>
+        </div>
+    </footer>
 </body>
 </html>
