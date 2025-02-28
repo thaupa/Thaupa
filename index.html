@@ -1,55 +1,58 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Casas Modulares en Murcia</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <div class="container">
-            <h1>Casas Modulares</h1>
-            <nav>
-                <ul>
-                    <li><a href="#home">Inicio</a></li>
-                    <li><a href="#about">Sobre Nosotros</a></li>
-                    <li><a href="#services">Servicios</a></li>
-                    <li><a href="#contact">Contacto</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <main>
-        <section id="home" class="hero">
-            <div class="container">
-                <h2>Casas Modulares en Murcia</h2>
-                <p>Encuentra la casa modular de tus sueños en Murcia.</p>
-            </div>
-        </section>
-        <section id="about" class="content-section">
-            <div class="container">
-                <h2>Sobre Nosotros</h2>
-                <p>Somos líderes en la construcción de casas modulares en Murcia.</p>
-            </div>
-        </section>
-        <section id="services" class="content-section">
-            <div class="container">
-                <h2>Servicios</h2>
-                <p>Ofrecemos una amplia gama de servicios para la construcción de casas modulares.</p>
-            </div>
-        </section>
-        <section id="contact" class="content-section">
-            <div class="container">
-                <h2>Contacto</h2>
-                <p>Ponte en contacto con nosotros para más información.</p>
-            </div>
-        </section>
-    </main>
-    <footer>
-        <div class="container">
-            <p>&copy; 2025 Casas Modulares en Murcia. Todos los derechos reservados.</p>
-        </div>
-    </footer>
-</body>
-</html>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 2rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    background-image: url('hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 5rem 0;
+}
+
+.content-section {
+    padding: 3rem 0;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
