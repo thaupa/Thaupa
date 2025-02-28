@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casas Prefabricadas con Terreno</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="hero">
+        <h1>Tu Casa Prefabricada con Terreno a Precio Asequible</h1>
+        <p>Casas modernas, eficientes y listas para entrar a vivir.</p>
+        <button class="cta-button">Reserva tu casa desde 500€</button>
+    </div>
+    <div class="container">
+        <div class="info-section">
+            <h2>¿Por qué elegir nuestras casas?</h2>
+            <p>✔ Diseños modernos y personalizables</p>
+            <p>✔ Eficiencia energética y sostenibilidad</p>
+            <p>✔ Listas para entrar a vivir con terreno incluido</p>
+        </div>
+        <h2>Solicita más información</h2>
+        <form>
+            <input type="text" name="nombre" placeholder="Tu Nombre" required>
+            <input type="email" name="email" placeholder="Tu Correo Electrónico" required>
+            <input type="tel" name="telefono" placeholder="Tu Teléfono" required>
+            <button type="submit">Quiero información</button>
+        </form>
+    </div>
+</body>
+</html>
